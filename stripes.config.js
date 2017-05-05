@@ -7,6 +7,7 @@ module.exports = {
     '@folio/trivial': {},
     '@folio/users': {},
     '@folio/items': {},
-    '@folio/scan': {}
+    '@folio/scan': {},
+    '@folio/organization': {},
   }
 };
