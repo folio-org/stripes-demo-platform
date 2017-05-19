@@ -5,7 +5,6 @@ module.exports = {
     logPrefix: '--',
   },
   modules: {
-    '@folio/trivial': {},
     '@folio/users': {},
     '@folio/items': {},
     '@folio/scan': {},
