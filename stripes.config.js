@@ -10,5 +10,6 @@ module.exports = {
     '@folio/items': {},
     '@folio/scan': {},
     '@folio/organization': {},
+    '@folio/plugin-markdown-editor': {},
   }
 };
