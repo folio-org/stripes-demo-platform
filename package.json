@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@folio/stripes-core": "^1.8.0",
-    "@folio/stripes-components": "^0.10.0",
+    "@folio/stripes-components": "^0.10.1",
     "@folio/trivial": "^0.0.2-test",
     "@folio/users": "^2.2.0",
     "@folio/items": "^1.4.0",
