@@ -13,13 +13,11 @@ Then point your browser at http://localhost:3000/
 
 The Trivial UI module should then Just Work.
 
-The Users, Items, and Scan UI modules will only work if you have a suitably configured Okapi and set of services running on port 9130. One easy way to provide these is using a pre-built FOLIO Vagrant box, as described in the *Quick Start* section of [the folio-ansible README](https://github.com/folio-org/folio-ansible/blob/master/README.md).
+The other UI modules will only work if you have a suitably configured Okapi and set of services running on port 9130. One easy way to provide these is using a pre-built FOLIO Vagrant box, as described in the *Quick Start* section of [the folio-ansible README](https://github.com/folio-org/folio-ansible/blob/master/README.md).
 
-For the Users, Items, and Scan modules, you will also need to generate and POST module descriptors and tenant associations to Okapi to ensure interface compatibility and generate appropriate permission sets. To generate the module descriptors, run:
+For the other modules, you will also need to generate and POST module descriptors and tenant associations to Okapi to ensure interface compatibility and generate appropriate permission sets. To generate the module descriptors, you need to run the package2md.js script for each module. For example (for the Users module):
 ```
-$ node node_modules/@folio/stripes-core/util/package2md.json node_modes/@folio/users/package.json > users_md.json
-$ node node_modules/@folio/stripes-core/util/package2md.json node_modes/@folio/items/package.json > items_md.json
-$ node node_modules/@folio/stripes-core/util/package2md.json node_modes/@folio/scan/package.json > scan_md.json
+$ node node_modules/@folio/stripes-core/util/package2md.js node_modes/@folio/users/package.json > users_md.json
 ```
 These files can be POSTed to Okapi with curl, like so:
 ```
