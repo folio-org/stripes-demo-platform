@@ -12,5 +12,6 @@ module.exports = {
     '@folio/developer': {},
     '@folio/plugin-markdown-editor': {},
     '@folio/plugin-markdown-better': {},
+    '@folio/plugin-find-user': {},
   }
 };
