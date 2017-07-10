@@ -4,7 +4,7 @@
     "build": "stripes build stripes.config.js",
     "stripes": "stripes",
     "start": "stripes dev stripes.config.js",
-    "postinstall": "node ./build-module-descriptors.js"
+    "postinstall": "node ./build-module-descriptors.js --strict"
   },
   "dependencies": {
     "@folio/stripes-core": "^2.0.0",
