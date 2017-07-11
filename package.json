@@ -7,9 +7,9 @@
     "postinstall": "node ./build-module-descriptors.js"
   },
   "dependencies": {
-    "@folio/stripes-core": "^2.0.0",
-    "@folio/stripes-components": "^1.2.0",
-    "@folio/trivial": "^0.0.2-test",
+    "@folio/stripes-core": "^2.1.0",
+    "@folio/stripes-components": "^1.3.0",
+    "@folio/trivial": "^1.0.0",
     "@folio/users": "^2.7.0",
     "@folio/items": "^1.6.0",
     "@folio/scan": "^1.0.0",
