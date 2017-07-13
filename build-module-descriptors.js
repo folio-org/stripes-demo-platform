@@ -25,12 +25,7 @@ fs.readdir(indir, (err, filenames) => {
     const filename = sortedFilenames[i];
     if (filename.startsWith('stripes-') && filename !== 'stripes-core') continue;
     console.log(`processing '${filename}'`);
-    var cmd;
-    if (strict) {
-      cmd = `node ${indir}/stripes-core/util/package2md.js --strict ${indir}/${filename}/package.json > ${outdir}/${filename}.json`;
-    } else {
-      cmd = `node ${indir}/stripes-core/util/package2md.js ${indir}/${filename}/package.json > ${outdir}/${filename}.json`;
-    }
+    const cmd = `node ${indir}/stripes-core/util/package2md.js${strict ? ' --strict' : ''} ${indir}/${filename}/package.json > ${outdir}/${filename}.json`;
     try {
       const buffer = childProcess.execSync(cmd);
       const output = buffer.toString();
