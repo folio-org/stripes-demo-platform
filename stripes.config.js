@@ -7,7 +7,8 @@ module.exports = {
   modules: {
     '@folio/users': {},
     '@folio/items': {},
-    '@folio/scan': {},
+    '@folio/checkin': {},
+    '@folio/checkout': {},
     '@folio/organization': {},
     '@folio/developer': {},
     '@folio/plugin-markdown-editor': {},
