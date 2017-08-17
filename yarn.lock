@@ -181,9 +181,9 @@
     rxjs "^5.4.2"
     uuid "^3.0.1"
 
-"@folio/stripes-core@^2.6.0":
-  version "2.6.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-2.6.0.tgz#3795ea8d430b80342ba9e9f5d44aac1cb58e79ba"
+"@folio/stripes-core@^2.6.1":
+  version "2.6.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-2.6.1.tgz#963edba4c1a7b682e167dac214a5233c2e7dd2ab"
   dependencies:
     "@folio/stripes-components" "^1.4.0"
     "@folio/stripes-connect" "^2.5.0"
