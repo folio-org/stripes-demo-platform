@@ -7,8 +7,8 @@
     "postinstall": "node ./build-module-descriptors.js --strict"
   },
   "dependencies": {
-    "@folio/checkin": "^0.0.1",
-    "@folio/checkout": "^0.0.1",
+    "@folio/checkin": "^1.0.0",
+    "@folio/checkout": "^1.0.0",
     "@folio/developer": "^1.2.0",
     "@folio/items": "^1.8.0",
     "@folio/organization": "^2.1.0",
