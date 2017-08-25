@@ -10,6 +10,7 @@ module.exports = {
     '@folio/checkout': {},
     '@folio/checkin': {},
     '@folio/organization': {},
+    '@folio/circulation': {},
     '@folio/developer': {},
     '@folio/plugin-markdown-editor': {},
     '@folio/plugin-markdown-better': {},
