@@ -9,7 +9,6 @@ module.exports = {
     '@folio/items': {},
     '@folio/checkout': {},
     '@folio/checkin': {},
-    '@folio/requests': {},
     '@folio/organization': {},
     '@folio/circulation': {},
     '@folio/developer': {},
