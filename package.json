@@ -20,6 +20,6 @@
     "@folio/stripes-components": "^1.7.0",
     "@folio/stripes-core": "^2.7.0",
     "@folio/trivial": "^1.0.0",
-    "@folio/users": "^2.10.0"
+    "@folio/users": "^2.10.1"
   }
 }

@@ -295,9 +295,9 @@
     react "^15.6.1"
     react-router-dom "^4.1.1"
 
-"@folio/users@^2.10.0":
-  version "2.10.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.10.0.tgz#bc4c9f8da8d637ce168dfecbc851f5c9f34475ca"
+"@folio/users@^2.10.1":
+  version "2.10.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.10.1.tgz#b9bafceaac69a16d11fc3c6642f4d1fbbda7712c"
   dependencies:
     "@folio/stripes-components" "^1.7.0"
     "@folio/stripes-form" "^0.8.0"
