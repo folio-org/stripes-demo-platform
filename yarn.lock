@@ -85,12 +85,24 @@
     react-intl "^2.3.0"
     react-router-dom "^4.0.0"
 
-"@folio/plugin-find-user@1.0.0", "@folio/plugin-find-user@^1.0.0":
+"@folio/plugin-find-user@1.0.0":
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.0.0.tgz#4db1e7060447be510670cf2e851b423f001acd09"
   dependencies:
     "@folio/stripes-components" "^1.1.0"
     "@folio/stripes-logger" "^0.0.2"
+    lodash "^4.17.4"
+    react "^15.4.2"
+    react-bootstrap "^0.30.7"
+    react-router-dom "^4.0.0"
+
+"@folio/plugin-find-user@^1.1.0":
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.1.0.tgz#e11a9b355e261e91ef50e1c10060d8e284212e3b"
+  dependencies:
+    "@folio/stripes-components" "^1.7.0"
+    "@folio/stripes-logger" "^0.0.2"
+    "@folio/users" "^2.7.0"
     lodash "^4.17.4"
     react "^15.4.2"
     react-bootstrap "^0.30.7"
@@ -282,7 +294,7 @@
     react "^15.6.1"
     react-router-dom "^4.1.1"
 
-"@folio/users@^2.10.1":
+"@folio/users@^2.10.1", "@folio/users@^2.7.0":
   version "2.10.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.10.1.tgz#b9bafceaac69a16d11fc3c6642f4d1fbbda7712c"
   dependencies:
@@ -1379,12 +1391,12 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000725"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000725.tgz#20f2313d79401e02f61840f39698bc8c558811a6"
+  version "1.0.30000726"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000726.tgz#9bb742f8d026a62df873bc03c06843d2255b60d7"
 
 caniuse-lite@^1.0.30000718:
-  version "1.0.30000725"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000725.tgz#4fa66372323c6ff46c8a1ba03f9dcd73d7a1cb39"
+  version "1.0.30000726"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000726.tgz#966a753fa107a09d4131cf8b3d616723a06ccf7e"
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -2673,17 +2685,17 @@ intl-messageformat-parser@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-1.2.0.tgz#5906b7f953ab7470e0dc8549097b648b991892ff"
 
-intl-messageformat@1.3.0, intl-messageformat@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-1.3.0.tgz#f7d926aded7a3ab19b2dc601efd54e99a4bd4eae"
+intl-messageformat@^2.0.0, intl-messageformat@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-2.1.0.tgz#1c51da76f02a3f7b360654cdc51bbc4d3fa6c72c"
   dependencies:
     intl-messageformat-parser "1.2.0"
 
-intl-relativeformat@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/intl-relativeformat/-/intl-relativeformat-1.3.0.tgz#893dc7076fccd380cf091a2300c380fa57ace45b"
+intl-relativeformat@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/intl-relativeformat/-/intl-relativeformat-2.0.0.tgz#d6ba9dc6c625819bc0abdb1d4e238138b7488f26"
   dependencies:
-    intl-messageformat "1.3.0"
+    intl-messageformat "^2.0.0"
 
 invariant@^2.0.0, invariant@^2.1.0, invariant@^2.1.1, invariant@^2.2.1, invariant@^2.2.2:
   version "2.2.2"
@@ -3369,7 +3381,11 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-nan@^2.3.0, nan@~2.6.1:
+nan@^2.3.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.7.0.tgz#d95bf721ec877e08db276ed3fc6eb78f9083ad46"
+
+nan@~2.6.1:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
 
@@ -4029,12 +4045,12 @@ postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0
     supports-color "^3.2.3"
 
 postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.10, postcss@^6.0.2, postcss@^6.0.3:
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.10.tgz#c311b89734483d87a91a56dc9e53f15f4e6e84e4"
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.11.tgz#f48db210b1d37a7f7ab6499b7a54982997ab6f72"
   dependencies:
     chalk "^2.1.0"
     source-map "^0.5.7"
-    supports-color "^4.2.1"
+    supports-color "^4.4.0"
 
 prebuild-install@^2.1.0:
   version "2.2.2"
@@ -4330,12 +4346,12 @@ react-input-autosize@^1.1.4:
     prop-types "^15.5.8"
 
 react-intl@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.3.0.tgz#e1df6af5667fdf01cbe4aab20e137251e2ae5142"
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.4.0.tgz#66c14dc9df9a73b2fbbfbd6021726e80a613eb15"
   dependencies:
     intl-format-cache "^2.0.5"
-    intl-messageformat "^1.3.0"
-    intl-relativeformat "^1.3.0"
+    intl-messageformat "^2.1.0"
+    intl-relativeformat "^2.0.0"
     invariant "^2.1.1"
 
 react-onclickoutside@^5.7.0:
@@ -4474,9 +4490,18 @@ read-pkg@^2.0.0:
     normalize-package-data "^2.3.2"
     path-type "^2.0.0"
 
-"readable-stream@>=1.0.33-1 <1.1.0-0", readable-stream@^1.0.33:
+"readable-stream@>=1.0.33-1 <1.1.0-0":
   version "1.0.34"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.0.34.tgz#125820e34bc842d2f2aaafafe4c2916ee32c157c"
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.1"
+    isarray "0.0.1"
+    string_decoder "~0.10.x"
+
+readable-stream@^1.0.33:
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.1.14.tgz#7cf4c54ef648e3813084c636dd2079e166c081d9"
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.1"
@@ -4565,8 +4590,8 @@ redux-form@^6.1.1:
     prop-types "^15.5.9"
 
 redux-form@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-7.0.3.tgz#80157d01df7de6c8eb2297ad1fbbb092bafa34f5"
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-7.0.4.tgz#2297b6bed40fda8bb58132e261ba0976fb4e530c"
   dependencies:
     deep-equal "^1.0.1"
     es6-error "^4.0.0"
@@ -5024,7 +5049,7 @@ supports-color@^3.2.3:
   dependencies:
     has-flag "^1.0.0"
 
-supports-color@^4.0.0, supports-color@^4.2.1:
+supports-color@^4.0.0, supports-color@^4.2.1, supports-color@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-4.4.0.tgz#883f7ddabc165142b2a61427f3352ded195d1a3e"
   dependencies:
@@ -5325,8 +5350,8 @@ webpack-dev-middleware@^1.10.0:
     time-stamp "^2.0.0"
 
 webpack-hot-middleware@^2.16.1:
-  version "2.18.2"
-  resolved "https://registry.yarnpkg.com/webpack-hot-middleware/-/webpack-hot-middleware-2.18.2.tgz#84dee643f037c3d59c9de142548430371aa8d3b2"
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/webpack-hot-middleware/-/webpack-hot-middleware-2.19.0.tgz#7ab2607159496ff3f3314dda491cd96d8f2d5124"
   dependencies:
     ansi-html "0.0.7"
     html-entities "^1.2.0"
@@ -5341,8 +5366,8 @@ webpack-sources@^1.0.1:
     source-map "~0.5.3"
 
 webpack@^3.4.1:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.5.5.tgz#3226f09fc8b3e435ff781e7af34f82b68b26996c"
+  version "3.5.6"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.5.6.tgz#a492fb6c1ed7f573816f90e00c8fbb5a20cc5c36"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
